@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+    <meta charset="UTF-8" /><!-- енкодирање на карактери со UTF-8 формат -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- да се постави default viewport(resolution) -->
+    <title>Матеј Портфолио/за мене</title>
+    <link rel="icon" href="./images/1519899279286.jpg">
+    <link rel="stylesheet" href="./css/about-me.css" /> 
+
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Patrick+Hand&display=swap" rel="stylesheet">
+  </head>
+
+<!-- ******************************************************************************************************************** -->
+
+    <body>
+      <section class="hero-container">
+        <div class="circle-container">
+          <div class="circle">
+            <button class="btn">
+              <i class="fas fa-cog fa-spin"></i>
+            </button>
+          </div>
+        </div>
+
+      <!-- nav за уреди(таблети и телефони) помали од 768px-->
+      <input type="checkbox" id="active" />
+      <label for="active" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+
+      <div class="menu">
+        <ul class="list nav__list">
+          <li class="list__item">
+            <a href="https://github.com/pavlovskim" class="list__link">GitHub</a>
+          </li>
+          <li class="list__item">
+            <a href="https://twitter.com/matej_pavlovski" class="list__link">Twitter</a>
+          </li>
+          <li class="list__item">
+            <a href="https://www.instagram.com/matej_pavlovski/" class="list__link">Instagram</a>
+          </li>
+          <li class="list__item">
+            <a href="https://www.linkedin.com/in/matej-pavlovski-b22583210/" class="list__link">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+
+
+      <!-- nav за уреди поголеми од 768px-->
+      <nav>
+        <ul class="list nav__list">
+          <li class="list__item">
+            <a href="https://github.com/pavlovskim" class="list__link"
+              >GitHub</a
+            >
+          </li>
+          <li class="list__item">
+            <a href="https://twitter.com/matej_pavlovski" class="list__link"
+              >Twitter</a>
+          </li>
+          <li class="list__item">
+            <a href="https://www.instagram.com/matej_pavlovski/" class="list__link">Instagram</a>
+          </li>
+          <li class="list__item">
+            <a href="https://www.linkedin.com/in/matej-pavlovski-b22583210/" class="list__link">LinkedIn</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Ознаката <main> ја одредува главната содржина на документот. -->
+      <main class="grid">
+          <p class="hero__subtitle"><span class="first-letter">З</span>Здраво, моето име е Матеј и јас сум full stack веб програмер и заменик лидер на DarkZoneTM тимот. 
+            Спроведување на front-end архитектура на веб страната, планирање на интеракции со корисниците на веб-страници, 
+            развој на back-end веб апликации и конструирање сервери и бази на податоци за функционалност се некои 
+            од моите области на експертиза. Обезбедување и оптимизација на повеќе платформи за мобилни телефони и респонзивност на апликациите.
+            Би сакал да знаете дека сум високо вешт со HTML, CSS и JavaScript (React) за развој на предниот дел и JavaScript (Node)
+            и Php (CodeIgniter framework) за Back-End развој. Имам неколкугодишно искуство со секоја од нив.</p>
+        </div>
+
+        <div class="hero__image">
+          <img src="./images/PngItem_2796638.png" alt="About-me slika" />
+        </div>
+        
+      </main>
+
+    </section>
+
+    <!-- Ознаката <footer> дефинира подножје за документ. -->
+
+ <footer class="footer">
+      <ul class="list footer__list">
+        <li class="list__item">
+          <a
+            href="./index.html"
+            class="list__link"
+            >Почетна</a>
+        </li>
+        <li class="list__item">
+          <a
+            href="./about-me.html"
+            class="list__link"
+            >За мене</a>
+        </li>
+        <li class="list__item">
+          <a
+            href="./education.html"
+            class="list__link"
+            >Образование</a
+          >
+        </li>
+        <li class="list__item">
+          <a
+            href="./my-team.html"
+            class="list__link"
+            >Мојот тим</a>
+        </li>
+        <li class="list__item">
+          <a
+            href="https://darkzonetm.com"
+            class="list__link"
+            >DarkZoneTM</a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

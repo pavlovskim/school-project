@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" /><!-- енкодирање на карактери со UTF-8 формат -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- да се постави default viewport(resolution) -->
+    <title>Матеј Портфолио/едукација</title>
+    <link rel="icon" href="./images/1519899279286.jpg">
+    <link rel="stylesheet" href="./css/education.css" /> <!-- import -->
+   
+
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+<!-- ******************************************************************************************************************** -->
+
+    <body>
+      <section class="hero-container">
+        <div class="circle-container">
+          <div class="circle">
+            <button class="btn">
+              <i class="fas fa-cog fa-spin"></i>
+            </button>
+          </div>
+        </div>
+
+      <!-- nav за уреди(таблети и телефони) помали од 768px-->
+      <input type="checkbox" id="active" />
+      <label for="active" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+
+      <div class="menu">
+        <ul class="list nav__list">
+          <li class="list__item">
+            <a href="https://github.com/pavlovskim" class="list__link">GitHub</a>
+          </li>
+          <li class="list__item">
+            <a href="https://twitter.com/matej_pavlovski" class="list__link">Twitter</a>
+          </li>
+          <li class="list__item">
+            <a href="https://www.instagram.com/matej_pavlovski/" class="list__link">Instagram</a>
+          </li>
+          <li class="list__item">
+            <a href="https://www.linkedin.com/in/matej-pavlovski-b22583210/" class="list__link">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+
+
+      <!-- nav за уреди поголеми од 768px-->
+      <nav>
+        <ul class="list nav__list">
+          <li class="list__item">
+            <a href="https://github.com/pavlovskim" class="list__link"
+              >GitHub</a
+            >
+          </li>
+          <li class="list__item">
+            <a href="https://twitter.com/matej_pavlovski" class="list__link"
+              >Twitter</a
+            >
+          </li>
+          <li class="list__item">
+            <a href="https://www.instagram.com/matej_pavlovski/" class="list__link"
+              >Instagram</a
+            >
+          </li>
+          <li class="list__item">
+            <a href="https://www.linkedin.com/in/matej-pavlovski-b22583210/" class="list__link"
+              >LinkedIn</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Ознаката <main> ја одредува главната содржина на документот. -->
+
+      <main class="grid">
+        <header>
+          <h1><i>Едукација</i></h1>
+          <p>*Ова е делот каде е прикажана целата моја едукација.*</p>
+      </header>
+      
+      <ul class="timeline" style="height:80vh;overflow:auto;">
+        <!-- Item 1 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexa"></span>
+              <span class="flag">Основно училиште.</span>
+              <span class="time-wrapper"><span class="time">2009-2018</span></span>
+            </div>
+            <div class="desc">Во периодот од 2009 до 2018 година учев во ООУ "Браќа Миладиновци" каде што ги завршив сите години со одличен просек.</div>
+          </div>
+        </li>
+      
+        <!-- Item 2 -->
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexa"></span>
+              <span class="flag">Средно училиште.</span>
+              <span class="time-wrapper"><span class="time">2018-2022</span></span>
+            </div>
+            <div class="desc">По завршување на основното училиште се запишав во СОСУ. Струката на која се запишав е КТА поточно Компјутерска Техника и Автоматика каде што се пронајдов и сватив дека со програмирашето може да се направи се што ќе се замисли.</div>
+          </div>
+        </li>
+      
+        <!-- Item 3 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexa"></span>
+              <span class="flag">Web развој сертификат</span>
+              <span class="time-wrapper"><span class="time">2021</span></span>
+            </div>
+            <div class="desc">Од програмирањето највеќе се пронајдов во развој на веб апликации. Па така што во 2021 година запишав академија за Full Stack Web Development каде што успешно го положив испитот и земав сертификат.</div>
+          </div>
+        </li>      
+        <!-- Item 4 -->
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexa"></span>
+              <span class="flag">Англиски јазик</span>
+              <span class="time-wrapper"><span class="time">2018-2021</span></span>
+            </div>
+            <div class="desc">Во периодот од 2018 до 2021 година завршив курс за Англиски јазик, каде што го совладав англискиот јазикот и го земав C1 сертификатот.</div>
+          </div>
+        </li>      
+
+      </ul>
+        
+      </main>
+
+    </section>
+
+    <!-- Ознаката <footer> дефинира подножје за документ. -->
+
+ <footer class="footer">
+      <ul class="list footer__list">
+        <li class="list__item">
+          <a
+            href="./index.html"
+            class="list__link"
+            >Почетна</a>
+        </li>
+        <li class="list__item">
+          <a
+            href="./about-me.html"
+            class="list__link"
+            >За мене</a
+          >
+        </li>
+        <li class="list__item">
+          <a
+            href="./education.html"
+            class="list__link"
+            >Образование</a
+          >
+        </li>
+        <li class="list__item">
+          <a
+            href="./my-team.html"
+            class="list__link"
+            >Мојот тим</a>
+        </li>
+        <li class="list__item">
+          <a
+            href="https://darkzonetm.com"
+            class="list__link"
+            >DarkZoneTM</a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
